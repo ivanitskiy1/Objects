@@ -1,5 +1,6 @@
 package samples;
 
+// Some new line
 public class Dog {
     private String name;
 
