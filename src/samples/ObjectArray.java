@@ -2,6 +2,7 @@ package samples;
 
 import java.util.Scanner;
 
+// Another new line
 public class ObjectArray {
     private static Dog[] dogs = new Dog[0];
 
