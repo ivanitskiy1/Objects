@@ -25,6 +25,7 @@ public class Main {
                 lastName = in.nextLine();
                 System.out.print("Enter year of born: ");
                 yearOfBorne = in.nextLine();
+                
 
             } else if (command.equals("user_print")) {
                 System.out.println(firstName);
