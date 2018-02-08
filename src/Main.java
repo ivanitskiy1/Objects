@@ -25,14 +25,20 @@ public class Main {
                 lastName = in.nextLine();
                 System.out.print("Enter year of born: ");
                 yearOfBorne = in.nextLine();
-                
+                public static String[] add_user (String[]add_user, String add_user){
+                    String[] newArray = new String[new.length + 1];
+                    for (int i = 0; i < add_user.length; i++) {
+                        newArray[i] = add_user[i];
 
-            } else if (command.equals("user_print")) {
-                System.out.println(firstName);
-                System.out.println(lastName);
-                System.out.println(yearOfBorne);
-            } else {
-                System.out.println("Command \"" + command + "\" not found enter \"help\" for more info");
+
+                    } else if (command.equals("user_print")) {
+                        System.out.println(firstName);
+                        System.out.println(lastName);
+                        System.out.println(yearOfBorne);
+                    } else {
+                        System.out.println("Command \"" + command + "\" not found enter \"help\" for more info");
+                    }
+                }
             }
         }
     }
